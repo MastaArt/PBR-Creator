@@ -7,7 +7,7 @@ buttontext:"PBR Creator"
 	/*  
 	[INFO] 
 	NAME = PBR Creator
-	VERSION = 1.0.0
+	VERSION = 1.0.1
 	AUTHOR = Vasily Lukyanenko
 	DEV = 3DGROUND
 	CUSTOMER = Sergey Pak
@@ -15,6 +15,8 @@ buttontext:"PBR Creator"
 	HELP = 
 	[1.0.0]
 	* First release =
+	[1.0.1]
+	+ Added: Black color for Self Illumination =
 
 	[ABOUT]
 	Load objects from file in to position.=
@@ -138,6 +140,7 @@ buttontext:"PBR Creator"
 					)
 					"emissive": (
 						m.levelSelfIllum = 1.0
+						m.colorSelfIllum = color 0 0 0
 						m.texmapSelfIllum = getBitmap t
 					)
 					"glossiness": (	
